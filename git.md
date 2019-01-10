@@ -2,6 +2,21 @@
 
 Install GIT http://git-scm.com/downloads or https://desktop.github.com/
 
+## GENERAL Workflow
+
+- `git checkout -b branch-name`
+   - Create and checkout a branch to begin working.
+- `git add --all`
+   - Adds all the modified and untracked files to the staging area. You can add them one at a time by using git add filename.
+- `git commit -m "message that tells what the commit is doing"`
+   - Commits files in the staging area.
+- `git checkout master`
+   - Moves you back to the master branch.
+- `git merge branch-name`
+   - Merges the work you did in your branch into master.
+- `git push`
+   - Will push your work to the origin repository's master branch.
+
 ## Check install and create user environment
 
 - `git --version`
@@ -44,18 +59,3 @@ Install GIT http://git-scm.com/downloads or https://desktop.github.com/
 ## Checkout branch
 
 - `git checkout -b <branch-name>`
-
-## Workflow
-
-- `git checkout -b branch-name`
-   - Create and checkout a branch to begin working.
-- `git add --all`
-   - Adds all the modified and untracked files to the staging area. You can add them one at a time by using git add filename.
-- `git commit -m "message that tells what the commit is doing"`
-   - Commits files in the staging area.
-- `git checkout master`
-   - Moves you back to the master branch.
-- `git merge branch-name`
-   - Merges the work you did in your branch into master.
-- `git push`
-   - Will push your work to the origin repository's master branch.
