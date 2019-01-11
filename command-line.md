@@ -16,3 +16,4 @@
     - Ctrl+O / Enter / Ctrl+x
 - `source~/.bash_profile`
    - renders script
+   
