@@ -95,3 +95,40 @@ The following renders falsy values
 - The prototype property of an object is where we put methods and preoperties that we want **other objects to inherit**.
 -  The Constructor;s prototype property is **NOT** the prototype of the Constructor itself, it's the prototype of **ALL** instances that are created through it;
 - When a certain method (or property) is called, the search starts in the object itself, and if it cannpt be found, the search moves on to the object's prototype.  This continues until the method is found: **prototype chain**.
+
+## Callback Functions
+
+- Callback functions are functions that execute after a preceding function.   This occurs when a function is passed in as an argument to another function and execute after that function is done.
+```
+// A function which accepts another function as an argument
+// (and will automatically invoke that function when it completes - note that there is no explicit call to callbackFunction)
+
+
+
+
+function input(callback) {
+  var name = prompt('Please enter your name.');
+  callback(name);
+}
+
+function greeting(name) {
+  alert('Hello ' + name);
+}
+
+input(greeting);
+
+```
+## Recursion
+
+- is similar to an iterative function but uses a function to call upon itself to cycle over a condition
+
+## Closures
+
+- closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+
+- To use a closure, simply define a function inside another function and expose it. To expose a function, return it or pass it to another function.
+
+- We create a closure when an inner function is made accessible from outside its parent function. This can occur when an outer function returns an inner function. 
+
+- used to protect data
+
