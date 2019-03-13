@@ -3,12 +3,13 @@
 ## Table of contents
 
 Algorithms
-- Time Complexity Basics
+- [Time Complexity Basics][Time Complexity Basics]
+   - [Detail][Types of Growth Rate(detail)]
 
 
 ---
 
-### Time Complexity Basics
+## Time Complexity Basics
 
 ***Time complexity*** is a metric used to describe the efficiency of an algorithm. It is express as a function that estimates the time it takes to execute a program.  This is determined by calculating how quickly the time to run the program grows relative to the amount of input we feed into the program.  The calculation is not measured in time, but instead as a function of the variable `n`, where `n` is the input size, and `f(n)` is the rate the algorithm grows as the input size grows.
 
@@ -32,9 +33,8 @@ General rules
 > most efficient -> least efficient
 > O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)
 
-![alt text](https://cdn-images-1.medium.com/max/900/1*FKql5rhPdskhNAFV2D0RUQ.jpeg "Big O Chart")
 
-#### Types of Growth Rate(detail)
+### Types of Growth Rate(detail)
 
 - **CONSTANT Growth Rate O(1)** - the runtime of the function does not change whether processing one piece of data or processing a million pieces of data
    - E.g. Statement (incrementing an integer)
@@ -48,3 +48,5 @@ General rules
    - E.g. Common among nested for loops (checking pairs)
 - **EXPONENTIAL Growth RateO(2^n)** - the runtime doubles with each addition to the input size.  
    - E.g. Exhaustive search / Common among recursive algorithms.
+
+![alt text](https://cdn-images-1.medium.com/max/900/1*FKql5rhPdskhNAFV2D0RUQ.jpeg "Big O Chart")
