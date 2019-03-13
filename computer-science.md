@@ -3,7 +3,7 @@
 ## Table of contents
 
 Algorithms
-- [Time Complexity Basics][Time Complexity Basics]
+- [Time Complexity Basics](#time-complexity-basics)
    - [Detail](https://github.com/dangarts/docs/blob/master/computer-science.md#types-of-growth-ratedetail)
 
 ---
