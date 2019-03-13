@@ -20,16 +20,16 @@ Algorithms
 3. examine basic computer steps
 4. Can be used to measure TIME and SPACE
 
-- Types of measurements: Big O can examine the 
+Types of measurements: Big O can examine the 
    - **worst-case** 
    - best-case
    - average-case
 
-- General rules
+General rules
 1. Ignore constants
-   E.g. 5n -> O(n)
+> 5n -> O(n)
 2. Certain terms 'dominate' others
-   E.G. O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)
+> O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)
 
 ![alt text](https://cdn-images-1.medium.com/max/900/1*FKql5rhPdskhNAFV2D0RUQ.jpeg "Big O Chart")
 
