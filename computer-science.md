@@ -2,13 +2,29 @@
 
 ## Table of contents
 
+### CS Funcdamentails
+- Overview
+
+### Data Structures
+- Overview
+- Stack and Queues
+- Link Lists
+- Hash Tables
+- Trees & Graphs
+
 ### Algorithms
 - [Algorithm Overview](#algorithm-overview)
 - [Time Complexity Basics](#time-complexity-basics)
-   - [Detail](#types-of-growth-rate)
 - Recursion
 - [Search Algorithms](#search-algorithms)
 - Sorting Algorithms
+
+### Databases and SQL
+- Overview
+- Relational Databases
+- Funcdamental SQL Commands
+- Operators in SELECT statements
+- JOIN statements
 
 ---
 
