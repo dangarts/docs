@@ -4,7 +4,10 @@
 
 Algorithms
 - [Time Complexity Basics](#time-complexity-basics)
-   - [Detail](https://github.com/dangarts/docs/blob/master/computer-science.md#types-of-growth-ratedetail)
+   - [Detail](#types-of-growth-rate)
+- Recursion
+- [Search Algorithms](#search-algorithms)
+- Sorting Algorithms
 
 ---
 
@@ -33,19 +36,24 @@ General rules
 > O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)
 
 
-### Types of Growth Rate(detail)
+### Types of Growth Rate
 
-- **CONSTANT Growth Rate O(1)** - the runtime of the function does not change whether processing one piece of data or processing a million pieces of data
+- **CONSTANT Growth Rate O(1)** - An algorithm that will always execute in the same amount of time regardless of the size of the input data set
    - E.g. Statement (incrementing an integer)
-- **LOGARITHMIC Growth Rate O(log n)** - the runtime grows by one unit every time we double the input.
+- **LOGARITHMIC Growth Rate O(log n)** - An algorithm which halves the dataset with each iteration. The runtime grows by one unit every time we double the input.
    - E.g.   Common in binary search
-- **LINEAR Growth Rate O(n)** - the runtime of the function and the amount of data it processes are directly proportional to each other.
+- **LINEAR Growth Rate O(n)** - An algorithm whose performance will grow linearly and in direct proportion to the size of the input data set.
    - E.g. common in a single FOR loop (chech each element)
-- **LOG-LINEAR Growth Rate O(n log n)** - the runtime halves the data each time for each of `n` times.
+- **LOG-LINEAR Growth Rate O(n log n)** - An algorithm which halves the data each time for each of n times.
    - E.g.  Common in many sorts such as merge and heap sort (divide and conquer approach)
-- **QUADRATIC Growth Rate O(n^2)** - the runtime is directly proportional to the square of the size of the input data set. 
+- **QUADRATIC Growth Rate O(n^2)** - An algorithm whose performance is directly proportional to the square of the size of the input data set. 
    - E.g. Common among nested for loops (checking pairs)
-- **EXPONENTIAL Growth RateO(2^n)** - the runtime doubles with each addition to the input size.  
+- **EXPONENTIAL Growth RateO(2^n)** - An algorithm whose growth doubles with each addition to the input data set.  
    - E.g. Exhaustive search / Common among recursive algorithms.
 
 ![alt text](https://cdn-images-1.medium.com/max/900/1*FKql5rhPdskhNAFV2D0RUQ.jpeg "Big O Chart")
+
+---
+
+## Search Algorithms
+

@@ -15,11 +15,11 @@ CONS:
 
 
 **2 On what kinds of data sets would you use binary search? Why?** 0/0.5
-Binary search uses a sorted array dataset and uses a 'divide and conquer' approach for finding a value.  A sorted array consists of values arranged from low[0] to high.  Binary search compares the target value to the middle element of the array.  If the target value is lower then the midpoint, we can discard the upper half and vice versa.  The half in which the target cannot lie is eliminated and the search continues on the remaining half.  A new mid point is established on the new but smaller array and the iteration for the search starts again.  The process continues until the target value is found.
+Binary search uses a sorted array dataset by a 'divide and conquer' approach for finding a value.  A sorted array consists of values arranged from low[0] to high.  Binary search compares the target value to the middle element of the array.  If the target value is lower then the midpoint, we can discard the upper half and vice versa.  The half in which the target cannot lie is eliminated and the search continues on the remaining half.  A new mid point is established on the new but smaller array and the iteration for the search starts again.  The process continues until the target value is found.
 
 
 **3 If an algorithm has a logarithmic growth rate, what does that mean?** 0/0.5
-
+An algorithm which halves the dataset with each iteration. The runtime grows by one unit every time we double the input. E.g. Binary Search
 
 
 **4 What is a relational database?** 0.5/0.5
@@ -45,7 +45,7 @@ Undo function in a word processor is an operation that allows the last action to
 >    RETURN total
 > }
 
-Quadratic
+Quadratic.  Double loop
 
 **7 BinarySearchTree** 0/1
 >Given a Binary Tree, convert it to a Binary Search Tree.  The conversion must be done in a way that keeps the original structure of the Binary Tree.  You may not change how the tree is shaped.  Instead, you must move the five values of the tree (10, 27, 14, 23, 5) to there correct locations.  Verbally explain which values would be placed where in the tree (i.e x would take of y at the root because...)
