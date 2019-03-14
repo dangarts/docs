@@ -15,6 +15,7 @@ CONS:
    - Require more memory for storage
 
 
+
 **2 On what kinds of data sets would you use binary search? Why?** 0/0.5
 Binary search uses a sorted array dataset by a 'divide and conquer' approach for finding a value.  A sorted array consists of values arranged from low[0] to high.  Binary search compares the target value to the middle element of the array.  If the target value is lower then the midpoint, we can discard the upper half and vice versa.  The half in which the target cannot lie is eliminated and the search continues on the remaining half.  A new mid point is established on the new but smaller array and the iteration for the search starts again.  The process continues until the target value is found.
 
