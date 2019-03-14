@@ -1,6 +1,6 @@
 **1 What is an advantage and a disadvantage of using a linked list over an array?** .25/.5
 PROS:
-   - Each node within a linked list data struuture is independent in memory.
+   - Each node within a linked list data structure is independent in memory.
    - The size is dynamic
    - An operating system may use any available memory location to store it
    - Due to the node memory's independence, link lists can be very large when compared to an array data strucutures.
@@ -34,6 +34,7 @@ Undo function in a word processor is an operation that allows the last action to
 
 
 **6 TimeComplexity** 0/1
+```
 > What is the time complexity of the following code?
 > FUNCTION foo(array){
 >     SET total to zero
@@ -44,24 +45,30 @@ Undo function in a word processor is an operation that allows the last action to
 >     ENDFOR
 >    RETURN total
 > }
+```
 
 Quadratic.  Double loop
 
 **7 BinarySearchTree** 0/1
 >Given a Binary Tree, convert it to a Binary Search Tree.  The conversion must be done in a way that keeps the original structure of the Binary Tree.  You may not change how the tree is shaped.  Instead, you must move the five values of the tree (10, 27, 14, 23, 5) to there correct locations.  Verbally explain which values would be placed where in the tree (i.e x would take of y at the root because...)
 
+```
 >      10
 >     /  \
 >   27    14
 >  /        \
 >23          5
 
+>      14
+>     /  \
+>   10    23
+>  /        \
+> 5          27
+```
 
+**8 Which kind of join (left, right, inner) would result in the following data set from the account and transaction tables?** 1/1
 
-
-**8 JoinCSF** 1/1
-> Which kind of join (left, right, inner) would result in the following data set from the account and transaction tables?
-
+```
 >result
 >     first_name | last_name | trans_id
 >     -----------+-----------+----------
@@ -86,11 +93,12 @@ Quadratic.  Double loop
 >     00077    | 00001      | $567.00 | 04-19-2017
 >     00455    | 00003      | $147.00 | 08-10-2017
 >     00055    | 00002      | $780.00 | 01-18-2017
-
+```
 LEFT Join.  The reason is a inner join displays data if data points are included in both tables.  Considering the null value showing up in the trans_id column, a left join displays all account values and transactions.  Null if any transactions are unavailable.
 
 
 **9 Given the database schema below for a school:** 1/1.5
+
 > TotalAvailableCourses(CourseID , CourseName, ProfessorID)
 > Professors(ProfessorID, ProfessorName)
 > Students(StudentID, StudentName)
@@ -98,19 +106,25 @@ LEFT Join.  The reason is a inner join displays data if data points are included
 
 >Implement a query to get a list of all ProfessorID's that teach StudentCourses and the StudentCourses they teach. Note that TotalAvailableCourses and StudentCourses are different.
 
+```
    select Professors.ProfessorID TotalAvailableCourses.CourseName
    from TotalAvailableCourses
    join Professors on TotalAvailableCourses.Professor.id = Professors.ProfessorsID
    join StudentCourses on TotalAvailableCourses.CourseID = StudentCourses.CourseID;
-
+```
 
 **10 Given an array of unsorted integers, write a function to sort them in order from smallest to largest. You may write the function in any language of your choice. You may not use any built-in sort functions.** 0.75/1
+
+```
 >   Example:
 >   Input: [1,7,5,6,8,9,9,100,24,35,10]
 >   Output: [1,5,6,7,8,9,9,10,24,35,100]**
+```
 
 ANSWER ON CODEPEN: https://codepen.io/dangarts/pen/VRWvyR
 
 
 **11 Write a binary search to search a sorted array for a given element.** 0/1.5
-You scored a 0 out of 1.5
+iteration and recursive
+
+
