@@ -2,7 +2,10 @@
 
 ## Table of contents
 
-Algorithms
+#### Algorithms
+
+**Algorithms** is a sequence of steps taken to complete a tasl that yields a result and finishes in a finite amount of time. 
+
 - [Time Complexity Basics](#time-complexity-basics)
    - [Detail](#types-of-growth-rate)
 - Recursion
