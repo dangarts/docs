@@ -2,10 +2,8 @@
 
 ## Table of contents
 
-#### Algorithms
-
-**Algorithms** is a sequence of steps taken to complete a tasl that yields a result and finishes in a finite amount of time. 
-
+### Algorithms
+- [Algorithm Overview](#algorithm-overview)
 - [Time Complexity Basics](#time-complexity-basics)
    - [Detail](#types-of-growth-rate)
 - Recursion
@@ -14,8 +12,11 @@
 
 ---
 
-## Time Complexity Basics
+## Algorithm Overview
 
+**Algorithms** is a sequence of steps taken to complete a tasl that yields a result and finishes in a finite amount of time. 
+
+## Time Complexity Basics
 ***Time complexity*** is a metric used to describe the efficiency of an algorithm. It is express as a function that estimates the time it takes to execute a program.  This is determined by calculating how quickly the time to run the program grows relative to the amount of input we feed into the program.  The calculation is not measured in time, but instead as a function of the variable `n`, where `n` is the input size, and `f(n)` is the rate the algorithm grows as the input size grows.
 
 ***Runtime*** can refer to the physical time duration of an algorithm, but is often used synonymously with time complexity.
