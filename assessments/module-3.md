@@ -70,8 +70,7 @@ Quadratic.  Double loop
 
 **8 Which kind of join (left, right, inner) would result in the following data set from the account and transaction tables?** 1/1
 
->results
-
+**Results**
 first_name | last_name | trans_id
 -----------|-----------|----------
 charles    | Reason    | 00055
