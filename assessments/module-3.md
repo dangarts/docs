@@ -70,32 +70,32 @@ Quadratic.  Double loop
 
 **8 Which kind of join (left, right, inner) would result in the following data set from the account and transaction tables?** 1/1
 
-```
+
 >result
->     first_name | last_name | trans_id
->     -----------+-----------+----------
->     charles    | Reason    | 00055
->     Carl       | Guass     | 00077
->     Carl       | Guass     | 00122
->     Katherine  | Johnson   | (null)
->     Bernhard   | Riemann   | 00455
+| first_name | last_name | trans_id |
+| -----------|:---------:|---------:|
+| charles    | Reason    | 00055    |
+| Carl       | Guass     | 00077    |
+| Carl       | Guass     | 00122    |
+| Katherine  | Johnson   | (null)   |
+| Bernhard   | Riemann   | 00455    |
 
 >account
->     account_id | first_name | last_name
->     -----------+------------+----------
->     00001      | carl       | guass
->     00002      | charles    | reason
->     00003      | bernhard   | riemann
->     00004      | katherine  | johnson
+| account_id | first_name | last_name
+| -----------|------------|----------
+| 00001      | carl       | guass
+| 00002      | charles    | reason
+| 00003      | bernhard   | riemann
+| 00004      | katherine  | johnson
 
 >transaction
->     trans_id | account_id | cost    | date
->     ---------+------------+---------+------------
->     00122    | 00001      | $127.00 | 02-21-2017
->     00077    | 00001      | $567.00 | 04-19-2017
->     00455    | 00003      | $147.00 | 08-10-2017
->     00055    | 00002      | $780.00 | 01-18-2017
-```
+| trans_id | account_id | cost    | date
+| ---------|------------|---------|------------
+| 00122    | 00001      | $127.00 | 02-21-2017
+| 00077    | 00001      | $567.00 | 04-19-2017
+| 00455    | 00003      | $147.00 | 08-10-2017
+| 00055    | 00002      | $780.00 | 01-18-2017
+
 LEFT Join.  The reason is a inner join displays data if data points are included in both tables.  Considering the null value showing up in the trans_id column, a left join displays all account values and transactions.  Null if any transactions are unavailable.
 
 
