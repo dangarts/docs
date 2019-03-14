@@ -80,7 +80,9 @@ Carl       | Guass     | 00122
 Katherine  | Johnson   | (null)
 Bernhard   | Riemann   | 00455
 
->account
+
+**Account**
+
 account_id | first_name | last_name
 -----------+------------+----------
 00001      | carl       | guass
@@ -88,13 +90,15 @@ account_id | first_name | last_name
 00003      | bernhard   | riemann
 00004      | katherine  | johnson
 
->transaction
+**Transaction**
+
 trans_id | account_id | cost    | date
 ---------+------------+---------+------------
 00122    | 00001      | $127.00 | 02-21-2017
 00077    | 00001      | $567.00 | 04-19-2017
 00455    | 00003      | $147.00 | 08-10-2017
 00055    | 00002      | $780.00 | 01-18-2017
+
 
 LEFT Join.  The reason is a inner join displays data if data points are included in both tables.  Considering the null value showing up in the trans_id column, a left join displays all account values and transactions.  Null if any transactions are unavailable.
 
