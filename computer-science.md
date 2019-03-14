@@ -10,7 +10,7 @@
 - Hash Tables
 - Trees & Graphs
 
-### [Algorithms](#algorithm)
+### [Algorithms](#algorithms)
 - [Time Complexity Basics](#time-complexity-basics)
 - Recursion
 - [Search Algorithms](#search-algorithms)
