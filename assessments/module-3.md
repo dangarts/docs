@@ -1,4 +1,5 @@
 **1 What is an advantage and a disadvantage of using a linked list over an array?** .25/.5
+
 PROS:
    - Each node within a linked list data structure is independent in memory.
    - The size is dynamic
