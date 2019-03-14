@@ -84,7 +84,7 @@ Bernhard   | Riemann   | 00455
 **Account**
 
 account_id | first_name | last_name
------------+------------+----------
+-----------|------------|----------
 00001      | carl       | guass
 00002      | charles    | reason
 00003      | bernhard   | riemann
@@ -93,7 +93,7 @@ account_id | first_name | last_name
 **Transaction**
 
 trans_id | account_id | cost    | date
----------+------------+---------+------------
+---------|------------|---------|------------
 00122    | 00001      | $127.00 | 02-21-2017
 00077    | 00001      | $567.00 | 04-19-2017
 00455    | 00003      | $147.00 | 08-10-2017
