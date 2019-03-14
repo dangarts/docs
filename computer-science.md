@@ -2,11 +2,11 @@
 
 ## Table of contents
 
-### CS Funcdamentails
-- Overview
+### CS Fundamentals
+- CS Overview
 
 ### Data Structures
-- Overview
+- Data Structure Overview
 - Stack and Queues
 - Link Lists
 - Hash Tables
@@ -20,24 +20,30 @@
 - Sorting Algorithms
 
 ### Databases and SQL
-- Overview
+- DB and SQL Overview
 - Relational Databases
-- Funcdamental SQL Commands
+- Fundamental SQL Commands
 - Operators in SELECT statements
 - JOIN statements
 
 ---
 
-## Algorithm Overview
+## CS Fundamentals
+### CS Overview
 
-**Algorithms** is a sequence of steps taken to complete a tasl that yields a result and finishes in a finite amount of time. 
+Lorem ipsum
 
-## Time Complexity Basics
-***Time complexity*** is a metric used to describe the efficiency of an algorithm. It is express as a function that estimates the time it takes to execute a program.  This is determined by calculating how quickly the time to run the program grows relative to the amount of input we feed into the program.  The calculation is not measured in time, but instead as a function of the variable `n`, where `n` is the input size, and `f(n)` is the rate the algorithm grows as the input size grows.
+## Algorithms
+### Algorithm Overview
 
-***Runtime*** can refer to the physical time duration of an algorithm, but is often used synonymously with time complexity.
+**Algorithms** is a sequence of steps taken to complete a task that yields a result and finishes in a finite amount of time. 
 
-***Big O Notation*** Simplified analysis of an algorithm's efficiency
+### Time Complexity Basics
+**Time complexity** is a metric used to describe the efficiency of an algorithm. It is express as a function that estimates the time it takes to execute a program.  This is determined by calculating how quickly the time to run the program grows relative to the amount of input we feed into the program.  The calculation is not measured in time, but instead as a function of the variable `n`, where `n` is the input size, and `f(n)` is the rate the algorithm grows as the input size grows.
+
+**Runtime** can refer to the physical time duration of an algorithm, but is often used synonymously with time complexity.
+
+**Big O Notation** is a simplified analysis of an algorithm's efficiency
 1. Big O gives us the complexity in terms of the input size, N
 2. Machine-independent
 3. examine basic computer steps
@@ -56,7 +62,7 @@ General rules
 > O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)
 
 
-### Types of Growth Rate
+#### Types of Growth Rate
 
 - **CONSTANT Growth Rate O(1)** - An algorithm that will always execute in the same amount of time regardless of the size of the input data set
    - E.g. Statement (incrementing an integer)
@@ -75,5 +81,5 @@ General rules
 
 ---
 
-## Search Algorithms
+### Search Algorithms
 
