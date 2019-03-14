@@ -3,24 +3,20 @@
 ## Table of contents
 
 ### CS Fundamentals
-- CS Overview
 
 ### Data Structures
-- Data Structure Overview
 - Stack and Queues
 - Link Lists
 - Hash Tables
 - Trees & Graphs
 
-### Algorithms
-- [Algorithm Overview](#algorithm-overview)
+### [Algorithms](#algorithm)
 - [Time Complexity Basics](#time-complexity-basics)
 - Recursion
 - [Search Algorithms](#search-algorithms)
 - Sorting Algorithms
 
 ### Databases and SQL
-- DB and SQL Overview
 - Relational Databases
 - Fundamental SQL Commands
 - Operators in SELECT statements
@@ -29,13 +25,11 @@
 ---
 
 ## CS Fundamentals
-### CS Overview
-
 Lorem ipsum
 
-## Algorithms
-### Algorithm Overview
+---
 
+## Algorithms
 **Algorithms** is a sequence of steps taken to complete a task that yields a result and finishes in a finite amount of time. 
 
 ### Time Complexity Basics
