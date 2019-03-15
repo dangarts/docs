@@ -1,4 +1,4 @@
-**1 What is an advantage and a disadvantage of using a linked list over an array?** .25/.5
+**1. What is an advantage and a disadvantage of using a linked list over an array?** .25/.5
 
 PROS:
    - Each node within a linked list data structure is independent in memory.
@@ -16,22 +16,22 @@ CONS:
 
 
 
-**2 On what kinds of data sets would you use binary search? Why?** 0/0.5
+**2. On what kinds of data sets would you use binary search? Why?** 0/0.5
 
 Binary search uses a sorted array dataset by a 'divide and conquer' approach for finding a value.  A sorted array consists of values arranged from low[0] to high.  Binary search compares the target value to the middle element of the array.  If the target value is lower then the midpoint, we can discard the upper half and vice versa.  The half in which the target cannot lie is eliminated and the search continues on the remaining half.  A new mid point is established on the new but smaller array and the iteration for the search starts again.  The process continues until the target value is found.
 
 
-**3 If an algorithm has a logarithmic growth rate, what does that mean?** 0/0.5
+**3. If an algorithm has a logarithmic growth rate, what does that mean?** 0/0.5
 
 An algorithm which halves the dataset with each iteration. The runtime grows by one unit every time we double the input. E.g. Binary Search
 
 
-**4 What is a relational database?** 0.5/0.5
+**4. What is a relational database?** 0.5/0.5
 
 Relational database is based on the relational model that contains columns and rows of data.  Each row of data is a conceptual unit and the collection of these comceptual units in a table help make up a relational database.
 
 
-**5 DataStructure** 1/1
+**5. DataStructure** 1/1
 
 > You are a programmer and in charge of implementing the undo function in a word processor.  What data structure would best suit the situation and why?
 > a. tree / b. array / c. queue / d. stack
@@ -39,7 +39,7 @@ Relational database is based on the relational model that contains columns and r
 Undo function in a word processor is an operation that allows the last action to be reversed.  A stack LIFO is the data structure that needs to be implemented.
 
 
-**6 TimeComplexity** 0/1
+**6. TimeComplexity** 0/1
 
 ```
 //What is the time complexity of the following code?
@@ -57,7 +57,7 @@ FUNCTION foo(array){
 
 Quadratic.  Double loop
 
-**7 BinarySearchTree** 0/1
+**7. BinarySearchTree** 0/1
 >Given a Binary Tree, convert it to a Binary Search Tree.  The conversion must be done in a way that keeps the original structure of the Binary Tree.  You may not change how the tree is shaped.  Instead, you must move the five values of the tree (10, 27, 14, 23, 5) to there correct locations.  Verbally explain which values would be placed where in the tree (i.e x would take of y at the root because...)
 
 ```
@@ -74,7 +74,7 @@ Quadratic.  Double loop
 5           27
 ```
 
-**8 Which kind of join (left, right, inner) would result in the following data set from the account and transaction tables?** 1/1
+**8. Which kind of join (left, right, inner) would result in the following data set from the account and transaction tables?** 1/1
 
 **Results**
 
@@ -109,7 +109,7 @@ trans_id | account_id | cost    | date
 LEFT Join.  The reason is a inner join displays data if data points are included in both tables.  Considering the null value showing up in the trans_id column, a left join displays all account values and transactions.  Null if any transactions are unavailable.
 
 
-**9 Given the database schema below for a school:** 1/1.5
+**9. Given the database schema below for a school:** 1/1.5
 
 ```
 TotalAvailableCourses(CourseID , CourseName, ProfessorID)
@@ -126,7 +126,7 @@ Implement a query to get a list of all ProfessorID's that teach StudentCourses a
    join StudentCourses on TotalAvailableCourses.CourseID = StudentCourses.CourseID;
 ```
 
-**10 Given an array of unsorted integers, write a function to sort them in order from smallest to largest. You may write the function in any language of your choice. You may not use any built-in sort functions.** 0.75/1
+**10. Given an array of unsorted integers, write a function to sort them in order from smallest to largest. You may write the function in any language of your choice. You may not use any built-in sort functions.** 0.75/1
 
 ```
 //Example:
@@ -137,7 +137,7 @@ Output: [1,5,6,7,8,9,9,10,24,35,100]**
 ANSWER ON CODEPEN: https://codepen.io/dangarts/pen/VRWvyR
 
 
-**11 Write a binary search to search a sorted array for a given element.** 0/1.5
+**11. Write a binary search to search a sorted array for a given element.** 0/1.5
 iteration and recursive
 
 
