@@ -134,6 +134,34 @@ Input: [1,7,5,6,8,9,9,100,24,35,10]
 Output: [1,5,6,7,8,9,9,10,24,35,100]**
 ```
 
+ANSWER: 
+
+```
+function sort(arr) {
+    
+    let indexA, indexB;
+    let sorted = false;
+
+    while ( !sorted) {  
+        sorted = true;
+        for ( let i=0 ; i<arr.length ; i++ ) {
+
+            indexA = arr[i];
+            indexB = arr[i+1];
+            
+            if ( indexA > indexB ) {
+              arr[i+1] = indexA;
+              arr[i] = indexB;
+              sorted = false;
+            }
+        }
+    }
+  
+    console.log(arr);
+}
+
+sort([1,7,5,6,8,9,9,100,24,35,10]);
+```
 ANSWER ON CODEPEN: https://codepen.io/dangarts/pen/VRWvyR
 
 
