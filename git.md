@@ -40,22 +40,39 @@ Install GIT http://git-scm.com/downloads or https://desktop.github.com/
 - `git config —global user.username <USERNAME>`
 - `git config —global user.username`
 
+## General
+
+`git status`
+
+
 ## Remote control | Connect your local repo to remote (per project)
 
-- `git remote add origin <urlfromgithub>`
-   - Add a remote
-- `git remote add set-url origin <urlfromgithub>`
-   - Set a remote
-- `git push origin master`
-- `git remote -v`
-   - View remote
-- `git pull origin <urlfromgithub>`
-    - Pull changes from remote
+`git remote add origin <urlfromgithub>` // Add a remote
+`git remote add set-url origin <urlfromgithub>` // Set a remote
+`git push origin master`
+`git remote -v` // View remote
+`git pull origin <urlfromgithub>`//  Pull changes from remote
 
 ## Fork and Clones
 
-- ...
+...
 
 ## Checkout branch
 
-- `git checkout -b <branch-name>`
+`git branch` // view local branch and to see which branch you are on
+`git checkout -b <branch-name>` create new feature branch and switch over to it
+`git checkout master` switch to master
+
+
+## Commiting
+
+`git commit -m 'commit message`
+
+## Merging
+
+Switch to a branch/master to merge another branch/master into it
+
+`git merge name-of-branch-or-master`
+`git push` pushes to master
+`git push origin name-of-branch` pushes to feature branch
+

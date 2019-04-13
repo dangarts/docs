@@ -9,6 +9,16 @@ Best results install Postgres via Homebrew.
 `psql -f path-of-file.sql name-of db-to-create <username>` import
 `psql db-name-created <username>` enter into db to start querying data
 
+Start/Stop/Restart Postgres
+
+`pg_ctl -D /usr/local/var/postgres[VERSION NUMBER HERE] start`
+`pg_ctl -D /usr/local/var/postgres[VERSION NUMBER HERE] stop`
+
+`brew services list`
+`brew services restart postgresql`
+`brew services start postgresql`
+`brew services stop postgresql`
+
 ## PSQL
 - `\?` for help with psql commands
 - `\l` or `\list` list all db information
