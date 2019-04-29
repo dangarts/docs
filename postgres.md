@@ -3,21 +3,20 @@ An interactive command line interface for executing SQL code
 Best results install Postgres via Homebrew.
 
 ## Terminal
-`psql` login to postgres via terminal
-`createdb` 
-`psql -h localhost` 
-`psql -f path-of-file.sql name-of db-to-create <username>` import
-`psql db-name-created <username>` enter into db to start querying data
+- `psql` login to postgres via terminal
+- `createdb` 
+- `psql -h localhost` 
+- `psql -f path-of-file.sql name-of db-to-create <username>` import
+- `psql db-name-created <username>` enter into db to start querying data
 
-Start/Stop/Restart Postgres
+## Start/Stop/Restart Postgres
 
-`pg_ctl -D /usr/local/var/postgres[VERSION NUMBER HERE] start`
-`pg_ctl -D /usr/local/var/postgres[VERSION NUMBER HERE] stop`
-
-`brew services list`
-`brew services restart postgresql`
-`brew services start postgresql`
-`brew services stop postgresql`
+- `pg_ctl -D /usr/local/var/postgres[VERSION NUMBER HERE] start`
+- `pg_ctl -D /usr/local/var/postgres[VERSION NUMBER HERE] stop`
+- `brew services list`
+- `brew services restart postgresql`
+- `brew services start postgresql`
+- `brew services stop postgresql`
 
 ## PSQL
 - `\?` for help with psql commands
