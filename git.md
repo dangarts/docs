@@ -76,3 +76,8 @@ Switch to a branch/master to merge another branch/master into it
 `git push` pushes to master
 `git push origin name-of-branch` pushes to feature branch
 
+## Resetting branch to start clean again
+
+`git reset --hard HEAD`
+`git clean -fd`
+

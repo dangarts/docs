@@ -16,4 +16,22 @@
     - Ctrl+O / Enter / Ctrl+x
 - `source~/.bash_profile`
    - renders script
-   
+
+Example of .bash_profile
+```
+export PS1="\[\033[0;36m\]\u@\w\[\033[m\]\$ "
+#export PS1="\u@\w$ "
+
+export CLICOLOR=1;
+export LSCOLORS=dxfxcxdxbxegedabagacad;
+
+alias hy="history"
+alias cl="clear"
+alias ll="ls -la"
+alias pd="pwd"
+
+```
+
+
+Step 1: click on "Media" menu, click "Advance Open Files" from the menu. 
+Step 2: Click on "Add" button under the "File" tab, for add the files which you want to merge. Then, you should go the Play button and click on "Convert" from the menu.

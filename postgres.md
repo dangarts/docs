@@ -48,3 +48,18 @@ Best results install Postgres via Homebrew.
 ### Execute the previous command
    - `SELECT version();` - retrieve current version
    - `\g` - executes the previous command
+
+### Sequelize to model data
+- start postgres 
+  - `pg_ctl -D /usr/local/var/postgres[VERSION NUMBER HERE] start`
+- create database(s) 
+  - createdb -U postgres -w db-name-dev-or-test
+- add the modules needed for the database and ORM
+  - `npm i --save sequelize@4.32.6 pg@7.4.1 pg-hstore@2.3.2`
+- Sequelize CLI
+  - `npm i -g sequelize-cli@4.0.0`
+- create our Sequelize configuration file
+  - `touch .sequelizerc` add data to that file
+- run the config file
+  - `sequelize init`
+- edit/review `src/db/config/config.json`
