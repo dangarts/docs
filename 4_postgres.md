@@ -64,9 +64,5 @@ Best results install Postgres via Homebrew.
   - `sequelize init`
 - edit/review `src/db/config/config.json`
 
-### Heroku DB access
 
-- `heroku psql`
-- `heroku run sequelize db:migrate:undo:all`
-- `heroku run sequelize db:migrate`
 

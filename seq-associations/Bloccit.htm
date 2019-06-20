@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://localhost:3000/users/sign_in -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bloccit</title>
+<link rel="stylesheet" href="./Bloccit_files/bootstrap.min.css">
+<link rel="stylesheet" href="./Bloccit_files/application.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="http://localhost:3000/">Bloccit</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive" style="font-size: .8em;">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:3000/topics">Topics</a>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+        </li> -->
+
+<!-- #1 -->
+
+<!-- #2 -->
+  <li class="nav-item">
+    <a class="nav-link" href="http://localhost:3000/users/sign_up">Sign up</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="http://localhost:3000/users/sign_in">Sign in</a>
+  </li>
+
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <main class="container">
+
+      
+
+
+      <h1>Sign in</h1>
+
+      <form action="http://localhost:3000/users/sign_in" method="post" _lpchecked="1">
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAWRJREFUOBGlU7GOgkAQHbnrSAxGK3IVUPId5M7EDlpKvoCaXM8P8AWUfoCJhYWdjQkaa++MGLWmIZmb3YQ54Lg7vZtkd9/OvHn7NgsAAC809jTwxiG4zzQ47mmuDhE9Mno0i+RfQvSCck/naDSCyWTypaWy9evqeR5mWVbxpBA70DSNlfv9PigKl6Be6/Wkc+ZKVpIkcLlcwHEcMAwD8jyHxWIhSfUad9XA5zG15L1Q3olsVndDugKSVd6TYBd+o/z4P88ojL6LqUu9kYvjGI/HI16vV5xOpzgcDrn+QAKvQuWnsCwLSADO5zO4rgur1Qq22y237Amx4nc4DENcLpe4Xq9xMBjU+bf9TIfDAcuyxDRNUdf1hgBbaQEmqaoqse/7KCKKIq49tpo6t6fTCXa7HZimKeubzYZ5ze+S0xKId34SKAgCsG0biqKA2WwG8/lcEmiSz1ht2uuYEkKE7bawqI0/AJ5yzXcdXYlXAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+          <small class="text-muted" id="emailHelp">email address must be a valid address</small>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" name="password" aria-describedby="passwordHelp" placeholder="Enter password" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAYdJREFUOBGVVLuKwkAUPTErioVgY5WF2AhpFKz8AC0W0vgTK9injvkMt7HyB6zWSuy1s1WRXUJQ0cJCxSLOnSSzcYmaDGTmPs45M3fuEMmyrA/XdXvse0eMIUnSD4N9drvdb4KnkpCJ4G/0RTYNEoi1swf35jAnFU68snO5HMrl8h0skYCqqmg0GtEC2WxWJDKZDNhlCT+cE0HfeKNV13XUajUMBgPs93t0Oh3Yto1+v3+X+08mP1EJUQKSaZouJeiY5/OZY6iEy+UShRcxVuIvc9riBAGZEK/IhGGtVNjS43dAgWej2WyiUqlAlmWs12sMh0OcTicuIk7wTOBwOGA+n2O5XELTNJRKJQFP+W9bBKKM6XSK4/GIfD4Px3G4UIAjgXYckXq9DkVRsN1ukU6nAz7+XosIeUbQHfKIcL1eUa1W0Wq1MB6PMZlMODDWJRqGgd1uh0KhwEmbzYavND0UoD77rcJoNEKxWOS1LxYLrFYrLkCYhwIMQXdDPxplNptxQngiMmFuABiQmENn7wkAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+          <small class="text-muted" id="passwordHelp">password must match confirmation below</small>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+    </main>
+
+    <script src="./Bloccit_files/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+</script>
+<script src="./Bloccit_files/bootstrap.min.js"></script>
+
+  
+</body></html>
