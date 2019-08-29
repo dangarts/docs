@@ -1,6 +1,6 @@
 # CHEETSHEET / NOTES
 
-Private repo of Tai Dang
+Private repo
 
 - [Build Tools](1_build-tools.md)
 - [Command Line](1_command-line.md)
