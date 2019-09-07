@@ -1,7 +1,5 @@
 # CHEETSHEET / NOTES
 
-Private repo
-
 - [Build Tools](1_build-tools.md)
 - [Command Line](1_command-line.md)
 - [GIT](1_git.md)
