@@ -8,6 +8,5 @@
 - [CS](computer-science.md)
 - [DB](db.md)
 - [Postgres](postgres.md)
-
 - [Server](server.md)
 - [Resources](resources.md)
